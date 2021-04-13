@@ -1,0 +1,5 @@
+com\stefan\employee\EmployeeController.class
+com\stefan\employee\Employee.class
+com\stefan\employee\EmployeeApplication.class
+com\stefan\employee\EmployeeRepository.class
+com\stefan\employee\EmployeeService.class
