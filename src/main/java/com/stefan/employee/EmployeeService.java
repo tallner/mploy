@@ -10,11 +10,17 @@ public class EmployeeService {
 
     private final EmployeeRepository employeeRepository;
 
+/** /
+    public EmployeeService(EmployeeRepository employeeRepository) {
+        this.employeeRepository = employeeRepository;
+    }
+
+/**/
     EmployeeService(EmployeeRepository employeeRepository) {
         super();
         this.employeeRepository = employeeRepository;
     }
-
+/**/
     List<Employee> getAll(){
         var l = new ArrayList<Employee>();
         for(Employee r : employeeRepository.findAll())
